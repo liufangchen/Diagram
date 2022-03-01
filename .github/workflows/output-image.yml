@@ -4,7 +4,7 @@ name: drawio-actions-test
 on: [push]
 
 jobs:
-  tests:
+  PublishImages:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
