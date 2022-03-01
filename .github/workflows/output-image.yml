@@ -9,27 +9,27 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Convert test file to png image
-      uses: ./
+      uses: Burnett01/actions-drawio@1.2
       with:
         quality: 100
         scale: 1.0
         src: test.drawio
         dest: test.png
     - name: Convert test file to jpeg image
-      uses: ./
+      uses: Burnett01/actions-drawio@1.2
       with:
         quality: 100
         scale: 1.0
         src: test.drawio
         dest: test.jpeg
     - name: Convert test file to svg image
-      uses: ./
+      uses: Burnett01/actions-drawio@1.2
       with:
         scale: 1.0
         src: test.drawio
         dest: test.svg
     - name: Convert test file to pdf
-      uses: ./
+      uses: Burnett01/actions-drawio@1.2
       with:
         scale: 1.0
         src: test.drawio
